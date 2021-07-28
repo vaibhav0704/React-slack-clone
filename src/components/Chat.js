@@ -64,6 +64,7 @@ const Chat = () => {
         <>
             <SwipeableDrawer
                 anchor='left'
+                disableSwipeToOpen='false'
                 open={open}
                 onClose={() => setOpen(false)}
                 onOpen={() => {}}

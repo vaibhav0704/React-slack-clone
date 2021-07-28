@@ -7,7 +7,7 @@ const screen = {
 export const ChatContainer = styled.div`
     flex: 0.7;
     flex-grow: 1;
-    overflow-y: scroll;
+    overflow-y: scroll !important;
     height: 100vh;
 
     ::-webkit-scrollbar {
@@ -24,7 +24,7 @@ export const Header = styled.div`
     justify-content: space-between;
     padding: 20px;
     border-bottom: 1px solid lightgray;
-    position: sticky;
+    position: sticky !important;
 `;
 export const HeaderLeft = styled.div`
 
