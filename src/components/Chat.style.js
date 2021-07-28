@@ -13,6 +13,10 @@ export const ChatContainer = styled.div`
     ::-webkit-scrollbar {
         display: none;
     }
+
+    ${screen.display} {
+        margin-top: 60px !important;
+    }
 `;
 
 export const Header = styled.div`

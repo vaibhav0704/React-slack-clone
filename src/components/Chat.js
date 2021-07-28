@@ -75,7 +75,7 @@ const Chat = () => {
                             <h2>CODE BASE </h2> 
                             <h3>
                                 <FiberManualRecordIcon />
-                                {user?.displayName}
+                                {`by ${user?.displayName}`}
                             </h3>
                             </div>
                             <CreateIcon />
