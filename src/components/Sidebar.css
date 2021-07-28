@@ -1,0 +1,82 @@
+.sidebarContainer{
+    background-color: var(--slack-color);
+    color: white;
+    flex: 0.3;
+    border-top: 1px solid #49274b;
+    max-width: 300px;
+    overflow-y: scroll;
+    min-height: 100vh;
+}
+
+.sidebarContainer.active {
+    color: white;
+}
+
+.sidebarContainer ::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebarContainer >hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #49274b;
+}
+
+.sidebarHeader {
+    display: flex;
+    border-bottom: 1px solid #49274b;
+    padding-bottom: 10px;
+    padding: 13px;
+}
+
+.sidebarHeader > .MuiSvgIcon-root {
+    padding: 8px;
+    color: #49274b;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 40%;
+    cursor: pointer;
+}
+
+.sidebarHeader :hover {
+    opacity: 0.8;
+}
+
+.sidebarInfo {
+    flex: 1; 
+}
+
+.sidebarInfo > h2 {
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 5px; 
+}
+
+.sidebarInfo > h2 {
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 5px; 
+}
+
+.sidebarInfo > h3 > .MuiSvgIcon-root {
+    font-size: 14px;
+    margin-top: 1px;
+    margin-right: 2px;
+    color: green;
+}
+
+@media (max-width: 630px) {
+
+    .sidebarContainer.active {
+        min-width: 100vw;
+        position: absolute;
+        display: block;
+        min-width: 100%;
+        transition: 350ms;
+    }
+
+    .sidebarContainer ::-webkit-scrollbar {
+        display: none;
+    }
+}
+    
