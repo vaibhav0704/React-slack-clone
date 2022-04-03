@@ -13,7 +13,7 @@ const Login = () => {
     return (
         <LoginContainer>
             <LoginInnerContainer>
-                <img src='https://image.flaticon.com/icons/png/512/2111/2111615.png' />
+                <img src='https://thumbs.bfldr.com/at/pl546j-7le8zk-btwjnu?expiry=1649610163&fit=bounds&height=800&sig=NDJhNjhhY2FlMzRkMjg4MzczYjQ1NDI2MTMwOWY0ODZjOWQyYzYzMg%3D%3D&width=1100' />
                 <h1>Sign in to Code Base</h1>
                 <p>codebase.slack.com</p>
 

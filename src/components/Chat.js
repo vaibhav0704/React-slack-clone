@@ -64,7 +64,7 @@ const Chat = () => {
         <>
             <SwipeableDrawer
                 anchor='left'
-                disableSwipeToOpen='false'
+                disableSwipeToOpen={false}
                 open={open}
                 onClose={() => setOpen(false)}
                 onOpen={() => {}}
@@ -76,7 +76,7 @@ const Chat = () => {
                             <h2>CODE BASE </h2> 
                             <h3>
                                 <FiberManualRecordIcon />
-                                {`by ${user?.displayName}`}
+                                {user?.displayName}
                             </h3>
                             </div>
                             <CreateIcon />
