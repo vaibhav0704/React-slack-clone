@@ -13,11 +13,6 @@ const ChatInput = ({channelName, channelId, chatRef}) => {
     const sendMessage = (e) => {
         e.preventDefault();
 
-        console.log(channelId)
-        console.log(channelId)
-        console.log(channelId)
-        console.log(channelId)
-
         if(!channelId) {
             return false;
         }
